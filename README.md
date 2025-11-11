@@ -1,5 +1,5 @@
 
-#[Praktikum Struktur Data - Single Linked List (MyTelU Timeline)]
+[Praktikum Struktur Data - Single Linked List (MyTelU Timeline)]
 
 Identitas Pengumpul
 
@@ -13,12 +13,13 @@ Kelas: SE-08-01
 Berikut adalah kode program untuk simulasi **timeline MyTelU** menggunakan **struktur data Single Linked List (SLL)**.  
 Program ini dapat menambahkan postingan, menampilkan berdasarkan username, mencari posting terpopuler, dan mengubah jumlah like/unlike.
 
-```File: sll.h
+File: sll.h
  * Author: Davis Arvaputra Dwiansyah
  * NIM: 103122400034
  * Deskripsi: Program simulasi timeline MyTelU dengan struktur data Single Linked List.
  */
 
+```
 #ifndef SLL_H
 #define SLL_H
 
@@ -79,7 +80,9 @@ void updateLike(List &a, int ID, bool isLike);
 
 ```
 
-```File sll.cpp
+File sll.cpp
+
+```
 #include "sll.h"
 
 
@@ -298,7 +301,9 @@ void updateLike(List &a, int ID, bool isLike){
 }
 ```
 
-```File main.cpp
+File main.cpp
+
+```
 
 #include "sll.h"
 #include <iostream>
@@ -399,7 +404,7 @@ Berikut penjelasan alur logika dari program di atas:
 
 Berikut hasil eksekusi program ketika dijalankan:
 
-![Output Program](output/output.png)
+![Output Program](output/output.jpg)
 
 
 
